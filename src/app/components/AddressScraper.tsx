@@ -62,7 +62,7 @@ export default function AddressScraper() {
             value={url}
             onChange={(e) => setUrl(e.target.value)}
             placeholder="Enter website URL to scrape address"
-            className="flex-1 p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            className="flex-1 p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-black"
             required
           />
           <button
